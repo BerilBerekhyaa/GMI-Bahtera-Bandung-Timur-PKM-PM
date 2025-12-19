@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  /* PERUBAHAN DISINI: */
+  /* Kita taruh "business" di depan sebagai default */
+  /* Saya juga masukkan "dark" dan "night" sebagai cadangan */
+  themes: business --default, dark, night, light;
+}
+
+:root {
+  /* Menyesuaikan variabel warna agar kompatibel */
+  --background: var(--base-100); /* Mengambil warna dasar tema gelap */
+  --foreground: var(--base-content); /* Mengambil warna teks tema gelap */
+}
+
+/* Memaksa Font Lato dan Background Gelap */
+body {
+  font-family: var(--font-lato), sans-serif;
+  /* background-color: akan otomatis ikut tema 'business' */
+}
+
+h1, h2, h3, h4, h5, h6, .btn, .menu {
+  font-family: var(--font-lato), sans-serif;
+}
+
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle, #000000 1px, transparent 1px);
+  mask-image: linear-gradient(to bottom, transparent, 10% black, 90% black, transparent);
+}
+
+[data-theme="business"] .bg-grid-pattern {
+  background-image: radial-gradient(circle, #ffffff 1px, transparent 1px);
+  opacity: 0.1; /* Lebih tipis di dark mode */
+}
+
+[data-theme="light"] .bg-grid-pattern {
+  background-image: radial-gradient(circle, #000000 1px, transparent 1px);
+  opacity: 0.05; /* Sangat tipis di light mode */
+}
+
+/* GRADIENT TEXT CLASS */
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #4f46e5, #06b6d4); /* Biru ke Cyan */
+}
+
+[data-theme="business"] .text-gradient {
+  background-image: linear-gradient(to right, #38bdf8, #818cf8); /* Biru Terang di Dark Mode */
+}
