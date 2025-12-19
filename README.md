@@ -1,6 +1,6 @@
 # ⛪ Integrated Information System for GMI Bahtera Bandung Timur
 
-![Banner Project](public/img/gerejaheropics/hero1.jpeg)
+![Banner Project](public/img/gerejaheropics/hero8.jpeg)
 
 <div align="center">
 
