@@ -83,7 +83,7 @@ Follow these steps to run the project on your local machine:
 
 1. **Clone Repository**
    ```bash
-   git clone [https://github.com/BerilBerekhyaa/GMI-Bahtera-Bandung-Timur-PKM-PM.git](https://github.com/BerilBerekhyaa/GMI-Bahtera-Bandung-Timur-PKM-PM.git)
+   git clone https://github.com/BerilBerekhyaa/GMI-Bahtera-Bandung-Timur-PKM-PM.git
 
 2. **Navigate to Directory**
    ```bash
