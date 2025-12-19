@@ -16,18 +16,18 @@ export const metadata = {
   description: "Website resmi GMI Bahtera Bandung Timur. Jadwal ibadah, lokasi, warta jemaat, dan pelayanan kasih.",
   openGraph: {
     type: "website",
-    url: "https://gmibahtera.org/", // Ganti domain asli jika sudah ada
+    url: "https://gmi-bahtera-bandung-timur.vercel.app/", // Ganti domain asli jika sudah ada
     title: "GMI Bahtera Bandung Timur",
     description: "Melayani dengan kasih, bertumbuh dalam iman. Temukan jadwal ibadah dan warta jemaat di sini.",
     images: [{
-      url: "https://images.unsplash.com/photo-1438232992991-995b7058bbb3?q=80&w=1000&auto=format&fit=crop",
+      url: "./img/gerejaheropics/hero8.jpeg",
     }],
   },
   twitter: {
     card: "summary_large_image",
     title: "GMI Bahtera Bandung Timur",
     description: "Melayani dengan kasih, bertumbuh dalam iman.",
-    images: ["https://images.unsplash.com/photo-1438232992991-995b7058bbb3?q=80&w=1000&auto=format&fit=crop"],
+    images: ["./img/gerejaheropics/hero8.jpeg"],
   },
 };
 
