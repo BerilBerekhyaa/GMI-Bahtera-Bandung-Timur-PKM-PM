@@ -1,4 +1,4 @@
-# ⛪ Integrated Information System for GMI Bahtera Bandung Timur
+#  Integrated Information System for GMI Bahtera Bandung Timur
 
 ![Banner Project](public/img/img_etcs/main_interface.png)
 
@@ -11,7 +11,7 @@
 **Student Creativity Program - Community Service (PKM-PM) 2025**
 *Digitalization of Church Services to Enhance Efficiency & Information Accessibility for the Congregation*
 
-[View Live Demo 🚀](https://gmi-bahtera-bandung-timur.vercel.app/)
+[View Live Demo ](https://gmi-bahtera-bandung-timur.vercel.app/)
 </div>
 
 ---
